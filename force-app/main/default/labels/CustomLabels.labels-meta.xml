@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Quote_Approval_Common_Email_Addreess</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Quote Approval Common Email Addreess</shortDescription>
+        <value>FITQuoteSystem@FIT.com</value>
+    </labels>
+</CustomLabels>

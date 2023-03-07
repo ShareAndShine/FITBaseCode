@@ -12,5 +12,5 @@ public with sharing class AccountUtils {
     public static List<Account> getAllAccsByType(string strType)
     {
         return [SELECT Id, Name from Account where Type =: strType];
-    }
+    } 
 }

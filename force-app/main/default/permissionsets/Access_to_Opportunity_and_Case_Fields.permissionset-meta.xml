@@ -1,32 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Name</field>
+        <field>Case.ContactId</field>
         <readable>true</readable>
     </fieldPermissions>
-
-    
-     <fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Amount</field>
+        <field>Case.Description</field>
         <readable>true</readable>
     </fieldPermissions>
-
-     <fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Origin</field>
         <readable>true</readable>
     </fieldPermissions>
-
-
-  <fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Reason</field>
         <readable>true</readable>
     </fieldPermissions>
-
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Amount</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Access to Opportunity and Case Fields</label>
 </PermissionSet>

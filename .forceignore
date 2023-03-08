@@ -10,3 +10,6 @@ package.xml
 
 # LWC Jest
 **/__tests__/**
+
+# Ignore ... DO NOT DEPLOY THE FILES INDICATED BELOW
+force-app\main\default\staticresources
